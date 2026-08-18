@@ -22,7 +22,7 @@ Every assignment built inside this repository runs on its own isolated live page
 | :--- | :--- | :--- |
 | **📝 Assignment 01** | Core Module 01 Implementation | [View Assignment 01](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-01/index.html) |
 | **📝 Assignment 02** | Advanced Logic & Formatting | [View Assignment 02](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-02/index.html) |
-| **⏳ Assignment 03** | Upcoming Module Content | *Coming Soon...* |
+| **⏳ Assignment 03** | Photography Website | [View Assignment 03](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-03/index.html) |
 
 ---
 
