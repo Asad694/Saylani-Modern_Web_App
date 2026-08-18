@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Asad's Photography Studio</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #222;
+    }
+
+    /* Navigation */
+    nav {
+        background-color: #1a1a1a;
+        padding: 15px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav h2 {
+        color: #fff;
+        letter-spacing: 2px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+    }
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    nav ul li a:hover {
+        color: #d4af37;
+    }
+
+    /* Banner */
+    .banner {
+        height: 35vh;
+        background-image: url('https://images.unsplash.com/photo-1519183071298-a2962be90b8e?w=1200&auto=format&fit=crop&q=80');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        color: #fff;
+        text-align: center;
+    }
+    .banner::before {
+        content: "";
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background-color: rgba(0,0,0,0.55);
+    }
+    .banner h1 {
+        position: relative;
+        z-index: 1;
+        font-size: 2.5em;
+    }
+
+    /* Contact Section */
+    .contact-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 60px 40px;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    .contact-info {
+        flex: 1;
+        min-width: 280px;
+    }
+    .contact-info h2 {
+        margin-bottom: 20px;
+        font-size: 1.8em;
+    }
+    .contact-info ul {
+        list-style: none;
+        line-height: 2.2;
+        color: #333;
+    }
+    .contact-info ul li strong {
+        color: #d4af37;
+        margin-right: 8px;
+    }
+
+    .contact-form {
+        flex: 1.2;
+        min-width: 300px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .contact-form h2 {
+        margin-bottom: 20px;
+        font-size: 1.6em;
+    }
+    .contact-form label {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 18px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-family: Arial, sans-serif;
+    }
+    .contact-form button {
+        background-color: #1a1a1a;
+        color: #d4af37;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    .contact-form button:hover {
+        background-color: #333;
+    }
+
+    /* Map placeholder */
+    .map-section {
+        padding: 0 40px 50px 40px;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    .map-section img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #1a1a1a;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    footer a {
+        color: #d4af37;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+</style>
+</head>
+<body>
+
+    <nav>
+        <h2 style="color:gold;">Asad's Studio</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="banner" style="background-image: url(https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2V0JTIwaW4lMjB0b3VjaHxlbnwwfHwwfHx8MA%3D%3D);">
+        
+        <h1>Get In Touch</h1>
+    </section>
+
+    <section class="contact-section">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+                <li><strong>Address:</strong> Shahrah-e-Faisal, Karachi, Pakistan</li>
+                <li><strong>Phone:</strong> +92 0900 786010</li>
+                <li><strong>Email:</strong> asad@example.com</li>
+                <li><strong>Hours:</strong> Mon - Sat, 10:00 AM - 8:00 PM</li>
+            </ul>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send a Message</h2>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Write your message"></textarea>
+
+            <button type="button">Send Message</button>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1000" alt="Studio location map">
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Asad's Photography Studio. All Rights Reserved.</p>
+        <p>
+            <a href="https://wa.me/1XXXXXXXXXX?text=Hey%20,%20How%20may%20I%20help%20you%20?">WhatsApp</a> |
+            <a href="https://github.com/Asad694/Saylani-Modern_Web_App">GitHub</a> |
+            <a href="mailto:asad@example.com">Gmail</a>
+        </p>
+    </footer>
+
+</body>
+</html>

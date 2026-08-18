@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | Asad's Photography Studio</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #222;
+    }
+
+    /* Navigation */
+    nav {
+        background-color: #1a1a1a;
+        padding: 15px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav h2 {
+        color: #fff;
+        letter-spacing: 2px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+    }
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    nav ul li a:hover {
+        color: #d4af37;
+    }
+
+    /* Banner */
+    .banner {
+        height: 35vh;
+        background-image: url('https://images.unsplash.com/photo-1520390138845-fd2d229dd553?w=1200&auto=format&fit=crop&q=80');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        color: #fff;
+        text-align: center;
+    }
+    .banner::before {
+        content: "";
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background-color: rgba(0,0,0,0.55);
+    }
+    .banner h1 {
+        position: relative;
+        z-index: 1;
+        font-size: 2.5em;
+    }
+
+    /* About Section */
+    .about-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 40px;
+        padding: 60px 40px;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    .about-section img {
+        width: 350px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 8px;
+        flex: 1;
+    }
+    .about-text {
+        flex: 1.2;
+        min-width: 300px;
+    }
+    .about-text h2 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+    .about-text p {
+        line-height: 1.7;
+        color: #555;
+        margin-bottom: 15px;
+    }
+
+    /* Skills Section */
+    .skills {
+        background-color: #1a1a1a;
+        color: #fff;
+        padding: 50px 40px;
+        text-align: center;
+    }
+    .skills h2 {
+        margin-bottom: 25px;
+        font-size: 1.8em;
+    }
+    .skills ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .skills ul li {
+        background-color: #2a2a2a;
+        padding: 15px 25px;
+        border-radius: 8px;
+        border: 1px solid #d4af37;
+    }
+
+    /* Equipment Section */
+    .equipment {
+        padding: 50px 40px;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .equipment h2 {
+        margin-bottom: 20px;
+        font-size: 1.8em;
+    }
+    .equipment ol {
+        text-align: left;
+        display: inline-block;
+        line-height: 1.8;
+        color: #555;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #1a1a1a;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    footer a {
+        color: #d4af37;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+</style>
+</head>
+<body>
+
+    <nav>
+        <h2 style="color:gold;">Asad's Studio</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="banner">
+        <h1>About Me</h1>
+    </section>
+
+    <section class="about-section">
+        <img src="https://images.unsplash.com/photo-1481437642641-2f0ae875f836?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuJTIwZmFjaW5nJTIwYmFja3xlbnwwfHwwfHx8MA%3D%3D" alt="Photographer at work">
+        <div class="about-text">
+            <h2>Hi, I'm Asad</h2>
+            <p>
+                I am a professional photographer based in Karachi with over 5 years of experience
+                in wedding, portrait, and nature photography. My passion for photography started
+                as a hobby and has grown into a full-time career dedicated to capturing genuine emotions.
+            </p>
+            <p>
+                I believe every photo should tell a story. Whether it's a wedding, a family portrait,
+                or a quiet moment in nature, I try to capture it in the most authentic and artistic way possible.
+            </p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Portrait Photography</li>
+            <li>Wedding Coverage</li>
+            <li>Photo Editing</li>
+            <li>Lighting Setup</li>
+            <li>Drone Photography</li>
+        </ul>
+    </section>
+
+    <section class="equipment">
+        <h2>My Equipment</h2>
+        <ol>
+            <li>Canon EOS R5 Camera</li>
+            <li>Sony A7 III Camera</li>
+            <li>50mm & 85mm Prime Lenses</li>
+            <li>Professional Studio Lighting Kit</li>
+            <li>DJI Mini Drone</li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Asad's Photography Studio. All Rights Reserved.</p>
+        <p>
+            <a href="https://wa.me/1XXXXXXXXXX?text=Hey%20,%20How%20may%20I%20help%20you%20?">WhatsApp</a> |
+            <a href="https://github.com/Asad694/Saylani-Modern_Web_App">GitHub</a> |
+            <a href="mailto:asad@example.com">Gmail</a>
+        </p>
+    </footer>
+
+</body>
+</html>

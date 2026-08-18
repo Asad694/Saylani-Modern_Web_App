@@ -1,0 +1,71 @@
+Objective
+Students ko HTML (HyperText Markup Language) ka practical use samajhna aur ek complete multi-page website banana hai.
+
+Task
+Har student ko apni pasand ke kisi bhi topic par 4-page website create karni hai. Website banane ke liye HTML ka use karna لازمی hai.
+
+Requirements
+
+
+Website mein total 4 different pages hon.
+
+
+Har page properly ek doosre se linked ho.
+
+
+Website mein ek Home Page zaroor hona chahiye.
+
+
+Baqi 3 pages topic ke mutabiq hon, jaise:
+About
+Services
+Contact
+Gallery
+Products
+Blog
+Courses
+Portfolio
+
+
+HTML ke appropriate headings, paragraphs, images, links aur lists ka use karein.
+
+
+Har page par navigation menu hona chahiye.
+
+
+Website ka content meaningful aur topic se related hona chahiye.
+
+
+Har page ka proper title hona chahiye.
+
+
+Images ka use kiya ja sakta hai.
+
+
+Website ke tamam pages ek hi folder mein properly organized hon.
+Suggested Topics
+Students in mein se koi topic choose kar sakte hain:
+
+Restaurant Website
+Travel & Tourism
+Educational Institute
+Personal Portfolio
+Online Book Store
+Sports Club
+Photography
+Hotel Website
+Fitness/Gym
+Technology
+Fashion
+Wildlife
+Historical Place
+Car Showroom
+E-Learning Website
+
+Note: Students apni choice ka koi bhi topic select kar sakte hain.
+
+
+
+
+
+

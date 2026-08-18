@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | Asad's Photography Studio</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #222;
+    }
+
+    /* Navigation */
+    nav {
+        background-color: #1a1a1a;
+        padding: 15px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav h2 {
+        color: #fff;
+        letter-spacing: 2px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+    }
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    nav ul li a:hover {
+        color: #d4af37;
+    }
+
+    /* Hero Section */
+    .hero {
+        height: 90vh;
+        background-image: url('https://images.unsplash.com/photo-1606986601547-a4d886b671b2?w=1200&auto=format&fit=crop&q=80');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        position: relative;
+    }
+    .hero::before {
+        content: "";
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .hero-content {
+        position: relative;
+        z-index: 1;
+    }
+    .hero-content h1 {
+        font-size: 3em;
+        margin-bottom: 15px;
+    }
+    .hero-content p {
+        font-size: 1.2em;
+        margin-bottom: 25px;
+    }
+    .btn {
+        background-color: #d4af37;
+        color: #1a1a1a;
+        padding: 12px 30px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    /* Intro Section */
+    .intro {
+        padding: 60px 40px;
+        text-align: center;
+    }
+    .intro h2 {
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+    .intro p {
+        max-width: 700px;
+        margin: 0 auto;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    /* Showcase Grid */
+    .showcase {
+        padding: 40px;
+        text-align: center;
+    }
+    .showcase h2 {
+        margin-bottom: 30px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .grid img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 6px;
+        transition: transform 0.3s;
+    }
+    .grid img:hover {
+        transform: scale(1.03);
+    }
+
+    /* Footer */
+    footer {
+        background-color: #1a1a1a;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    footer a {
+        color: #d4af37;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+</style>
+</head>
+<body>
+
+    <nav>
+        <h2 style="color:gold;">Asad's Studio</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Capturing Moments, Creating Memories</h1>
+            <p>Professional Photography for Every Occasion</p>
+            <a href="gallery.html" class="btn">View Gallery</a>
+        </div>
+    </section>
+
+    <section class="intro">
+        <h2>Welcome to Asad's Studio</h2>
+        <p>
+            I am a passionate photographer with over 5 years of experience capturing weddings,
+            portraits, nature, and events. My goal is to freeze every moment into a timeless
+            piece of art that you can cherish forever.
+        </p>
+    </section>
+
+    <section class="showcase">
+        <h2>Featured Work</h2>
+        <div class="grid">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=400" alt="Wedding Photography">
+            <img src="https://images.unsplash.com/photo-1656338997878-279d71d48f6e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHBvcnRyYWl0JTIwbWFufGVufDB8fDB8fHww" alt="Portrait Photography">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400" alt="Nature Photography">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Asad's Photography Studio. All Rights Reserved.</p>
+        <p>
+            <a href="https://wa.me/1XXXXXXXXXX?text=Hey%20,%20How%20may%20I%20help%20you%20?"> WhatsApp</a> |
+            <a href="https://github.com/Asad694/Saylani-Modern_Web_App">GitHub</a> |
+            <a href="mailto:asad@example.com">Gmail</a>
+        </p>
+    </footer>
+
+</body>
+</html>

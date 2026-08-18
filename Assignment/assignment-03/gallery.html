@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery | Asad's Photography Studio</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #222;
+    }
+
+    /* Navigation */
+    nav {
+        background-color: #1a1a1a;
+        padding: 15px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav h2 {
+        color: #fff;
+        letter-spacing: 2px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+    }
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    nav ul li a:hover {
+        color: #d4af37;
+    }
+
+    /* Page Banner */
+    .banner {
+        height: 35vh;
+        background-image: url('https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=1200&auto=format&fit=crop&q=80');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        color: #fff;
+        text-align: center;
+    }
+    .banner::before {
+        content: "";
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background-color: rgba(0,0,0,0.55);
+    }
+    .banner h1 {
+        position: relative;
+        z-index: 1;
+        font-size: 2.5em;
+    }
+
+    /* Gallery Sections */
+    .gallery-section {
+        padding: 50px 40px;
+    }
+    .gallery-section h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 1.8em;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+        max-width: 1100px;
+        margin: 0 auto 40px auto;
+    }
+    .grid img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 6px;
+        transition: transform 0.3s;
+    }
+    .grid img:hover {
+        transform: scale(1.04);
+    }
+
+    /* Category list */
+    .categories {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .categories ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .categories ul li {
+        background-color: #1a1a1a;
+        color: #d4af37;
+        padding: 8px 18px;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #1a1a1a;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    footer a {
+        color: #d4af37;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+</style>
+</head>
+<body>
+
+    <nav>
+        <h2 style="color:gold;">Asad's Studio</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="banner">
+        <h1>Our Photography Gallery</h1>
+    </section>
+
+    <section class="gallery-section">
+        <div class="categories">
+            <ul>
+                <li>Weddings</li>
+                <li>Portraits</li>
+                <li>Nature</li>
+                <li>Events</li>
+                <li>Fashion</li>
+            </ul>
+        </div>
+
+        <h2>Weddings</h2>
+        <div class="grid">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=400" alt="Wedding couple photo">
+            <img src="https://plus.unsplash.com/premium_photo-1682092632793-c7d75b23718e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2VkZGluZyUyMHRoZW1lfGVufDB8fDB8fHww" alt="Wedding ceremony">
+            <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=400" alt="Wedding rings">
+            <img src="https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGVzaSUyMHdlZGRpbmd8ZW58MHx8MHx8fDA%3D" alt="Wedding decoration">
+        </div>
+
+        <h2>Portraits</h2>
+        <div class="grid">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXQlMjBtYW58ZW58MHx8MHx8fDA%3D" alt="Portrait of a man">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400" alt="Portrait of a woman">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400" alt="Studio portrait">
+            <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400" alt="Outdoor portrait">
+        </div>
+
+        <h2>Nature</h2>
+        <div class="grid">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400" alt="Mountain landscape">
+            <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400" alt="Forest path">
+            <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?w=400" alt="Sunset over hills">
+            <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=400" alt="River landscape">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Asad's Photography Studio. All Rights Reserved.</p>
+        <p>
+            <a href="https://wa.me/1XXXXXXXXXX?text=Hey%20,%20How%20may%20I%20help%20you%20?">WhatsApp</a> |
+            <a href="https://github.com/Asad694/Saylani-Modern_Web_App">GitHub</a> |
+            <a href="mailto:asad@example.com">Gmail</a>
+        </p>
+    </footer>
+
+</body>
+</html>
