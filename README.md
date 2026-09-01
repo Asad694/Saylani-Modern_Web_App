@@ -24,6 +24,8 @@ Every assignment built inside this repository runs on its own isolated live page
 | **📝 Assignment 02** | Advanced Logic & Formatting | [View Assignment 02](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-02/index.html) |
 | **📝 Assignment 03** | Photography Website | [View Assignment 03](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-03/index.html) |
 | **📝 Assignment 04** | Table Tasks | [View Assignment 04](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-04/index.html) |
+| **📝 Assignment 05** | Food-Website | [View Assignment 05](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-05/index.html) |
+| **📝 Assignment 06** | Form Tasks | [View Assignment 06](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-06/index.html) |
 
 ---
 
