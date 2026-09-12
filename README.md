@@ -27,6 +27,7 @@ Every assignment built inside this repository runs on its own isolated live page
 | **📝 Assignment 05** | Food-Website | [View Assignment 05](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-05/index.html) |
 | **📝 Assignment 06** | Form Tasks | [View Assignment 06](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-06/index.html) |
 | **📝 Assignment 07** | Flexbox Cards Tasks | [View Assignment 07](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-07/index.html) |
+| **📝 Assignment 08** | Navbar Tasks | [View Assignment 08](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-08/index.html) |
 
 ---
 
