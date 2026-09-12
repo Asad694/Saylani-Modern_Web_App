@@ -1,0 +1,255 @@
+
+    *{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+    body{
+        
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVZDuhAioSpbRcFrG95Ug9GhBpeeck18G2A74hrcCXag&s=10);
+
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+        background-color:beige;
+        margin: 02% 30%;
+        padding: 2%;
+        border: 4px outset;
+        border-radius: 50px;
+    }
+    header:hover{
+        box-shadow: 4px 4px 4px black;
+    }
+
+    .task{
+        margin-left: 22px;
+        margin-bottom: 15px;
+        font-size: 1.1em;
+    }
+    .task > b:hover{
+        text-decoration: underline;
+    }
+
+    .task1 , .task2 , .task3 , .nav2{
+        display: flex;
+        justify-content: space-between;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyRGZD0X_lcMazsLLtsHqWrzGoUwhK_AS8c-0H3Fr3JQ&s=10);
+        max-width: 1300px;
+        margin-left: 10%;
+        align-items:center;
+    }
+
+    .task1{
+        background-color: white;
+        background-image: none;
+        padding: 1.5% 3%;
+        box-shadow: 6px 3px 4px black;
+    }
+
+    .task1 > div > div > a{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+
+    .task1 > div > div > a > img{
+        display: flex;
+        height: 22px;
+        width: 23px;
+    }
+    #logo1{
+        display: flex;
+    }
+    #logo1:hover{
+        color: blue;
+
+    }
+
+    .task1 > div > div > select{
+        width: 17px;
+        border: none;
+        background: none;
+    }
+
+    .task1 > div > a > button{
+        font-weight: bold;
+        padding: 7px;
+        border-radius: 5px;
+        border: none;
+
+    } 
+
+    #bttn1{
+        background-color: white;
+    }
+
+    #bttn2{
+        color: white;
+        background-color: black;
+    }
+
+    #bttn1:hover , #bttn2:hover{
+        background-color:gainsboro;
+        color:lightcoral;
+    }
+
+    .nav1-mid , .nav2-mid{
+        display: flex;
+        gap: 20px;
+    }
+    .nav1-mid > div > a:hover{
+        color: red;
+        text-decoration: underline;
+    }
+    .nav1-mid > div > select:hover{
+        color: red;
+        border: 2px solid red;
+        border-radius: 5px;
+    }
+
+    .nav1-start , .nav2-start{
+        display: flex;
+        gap: 10px;
+    }
+
+    .nav1-end {
+        display: flex;
+        gap: 10px;
+    }
+
+
+
+    .task2{
+        padding: 1% 1%;
+        
+        border-radius: 16px;
+        
+        background-image: none;
+        background: linear-gradient(135deg, #1a2a6c, #2b3fa0);
+    }
+
+    .nav2{
+        
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 2% 5%;
+        margin: 0px;
+        width: 13000px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+
+    }
+
+    .nav2 > div > a{
+        text-decoration: none;
+        color: rgb(205, 190, 190);
+    }
+
+    .nav2 > div > a:hover{
+        color: #ffffff;
+        font-weight: bold;
+        text-decoration:underline;
+    }
+    
+    .nav2-start{
+        align-items: center;
+    }
+
+    .dot{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #4facfe, #6c63ff);
+        display: inline-block;
+        flex-shrink: 0;
+    }
+
+    #logo2{
+        color:white;
+        font-size:1.2em ;
+        font-weight: bold;
+    }
+
+    #logo2:hover{
+        color:aquamarine;
+        text-decoration: none;
+    }
+
+    #bttn3{
+        color: #ffffff;
+        font-weight: bold;
+        padding: 7px;
+        border-radius: 5px;
+        border: none;
+        background: linear-gradient(135deg, #4facfe, #6c63ff);
+
+    }
+    #bttn3:hover{
+        color: #4facfe;
+        background: aliceblue;
+    }
+
+
+    .task3{
+        padding: 3% 0%;
+        margin: 0% 20%;
+        margin-left: 15%;
+        background-image: none;
+
+    }
+
+    .task3 > div{
+        padding: 3% 15%;
+        padding-left: 2%;
+        margin: 0% 10%;
+        margin-left: 22%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        background-color: rgb(17, 16, 16);
+        border-radius: 100px;
+        box-shadow: 2px 8px 10px rgb(16, 48, 64);
+    }
+
+    .task3 > div > a{
+        margin-top: 4px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight:600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .task3 > div > a:hover{
+        color: bisque;
+        text-decoration: underline;
+    }
+
+    .task3 > div > button{
+        display: flex;
+        background-color: #ffffff;
+        border: none; 
+        padding: 2% 2%;
+        margin-left: 9%;
+        border-radius: 100px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+
+    }
+
+    .task3 > div > button:hover{
+        background-color: rgb(99, 96, 96);
+        color: #ffffff;
+    }
+
+    #logo3{
+        display: flex;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        margin-right: 10%;
+        margin-left: 3%;
+    }
+    #logo3:hover{
+        border: 2px solid red;
+    }
