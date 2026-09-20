@@ -1,0 +1,332 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+body{
+    
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVZDuhAioSpbRcFrG95Ug9GhBpeeck18G2A74hrcCXag&s=10);
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color:beige;
+    margin: 02% 30%;
+    padding: 2%;
+    border: 4px outset;
+    border-radius: 50px;
+}
+header:hover{
+    box-shadow: 4px 4px 4px black;
+}
+
+.task{
+    margin-left: 22px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+.task > b:hover{
+    text-decoration: underline;
+}
+
+.task1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    margin: 0% 25%;
+    padding: 1%;
+    height: 60dvh;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+
+}
+
+.left1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    width: 50%;
+    padding: 5%;
+    
+}
+
+.left1 > div{
+    display: flex;
+    justify-content: center;
+}
+
+.left1 > div > h3{
+    font-size: 180%;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+
+.logos{
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 3%;
+}
+
+.logos > a{
+    text-decoration: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 3% 3%;
+    padding-left: 3%;
+    border-radius: 200%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.logos > a >i{
+    font-size: 110%;
+    
+}
+#i1{
+    color: #334C6C;
+}
+#i2{
+    color: #b34825;
+}
+#i3{
+    color: #09577B;
+}
+
+.left1 > div > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #6e7075;
+    font-size: 90%;
+    margin-bottom: -3%;
+}
+
+
+.box1{
+    display: inline-block;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box1 > input{
+    display: flex;
+    padding: 2%;
+    padding-left: 3%;
+    margin: 0% 20%;
+    border: none;
+    background-color: #EBEDF2;
+}
+
+.left1 > div > h5{
+    color: #6e7075;
+}
+
+.left1 > div > button{
+    padding: 3% 10%;
+    background-color: #FB5026;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 780;
+
+}
+#bt1:hover{
+    border: 1px solid #6e7075;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.right1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    background-color:#FB4135;
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    color: white;
+    
+}
+
+.right1 > h3{
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+}
+
+.right1 > div > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f6bfc2;
+    font-weight: 500;
+}
+
+.bt2{
+    display: flex;
+    justify-content: center;
+}
+
+.bt2 > button{
+    margin-top: 10%;
+    padding: 3% 10%;
+    background-color: #FB4135;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    font-weight: 790;
+}
+
+.bt2 > button:hover{        
+    border-style: outset;
+    box-shadow: 0px 4px 10px rgba(216, 212, 212, 0.96);
+}
+
+
+
+
+
+.task2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display:flex;
+        flex-wrap: wrap;
+        background-color: #F0F2F5;
+        margin: 0% 22%;
+        padding: 1%;
+        height: 60dvh;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+
+    }
+
+    .left2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-content: center;
+        width: 50%;
+        padding: 5%;
+        
+    }
+    
+    .left2 > div > h2{
+        margin-top: -10%;
+        color: #1977F1;
+        font-size: 300%;
+        font-weight: 700;
+    }
+
+    .left2 > div > p{
+        font-size: 130%;
+    }
+
+    .right2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-content: center;
+        width: 50%;
+        padding-left: 1%;
+        padding-right: 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        color: white;
+        
+    }
+
+    .card2{
+        display: inline-flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        background-color: #FFFFFF;
+        padding: 7% 3%;
+        width: 90%;
+        border-radius: 4px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+
+    }
+
+    .box2 > input{
+        display: flex;
+        padding: 2%;
+        height: 44%;
+        width: 97%;
+        padding-left: 3%;
+        margin: 2% 1%;
+        border: 1px solid #dad8d8;
+        background-color: #ffffff;
+        font-weight: 600;
+        border-radius: 5px;
+    }
+
+    .bt3{
+        display: flex;
+        justify-content: center;
+    }
+    .bt3 > button{
+        width: 97%;
+        padding: 4%;
+        border: none;
+        background-color: #1977F1;
+        border-radius: 5px;
+        color: #FFFFFF;
+        font-size: 90%;
+        font-weight: 700;
+        
+    }
+    .bt3 > button:hover{
+        border: 1px solid #0d4a9a;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .card2 > div > a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: #0383e4;
+        font-size: 90%;
+        font-weight: 400;
+    }
+    .card2 > div > a:hover{
+        text-decoration: underline;
+        font-weight: 600;
+    }
+
+    .line{
+        display: flex;
+        border: 1px solid #E7E7E7;
+        
+        margin-top: 3%;
+    }
+
+    .bt4{
+        display: flex;
+        justify-content: center;
+    }
+    .bt4 > button{
+        width: 58%;
+        padding: 4%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        border: none;
+        background-color: #42B72A;
+        border-radius: 5px;
+        color: #FFFFFF;
+        font-size: 90%;
+        font-weight: 700;
+        
+    }
+    .bt4 > button:hover{
+        border: 1px solid #1d9106;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    }
+
