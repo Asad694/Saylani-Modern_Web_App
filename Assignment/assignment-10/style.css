@@ -1,0 +1,251 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+body{
+    
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVZDuhAioSpbRcFrG95Ug9GhBpeeck18G2A74hrcCXag&s=10);
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color:beige;
+    margin: 02% 30%;
+    padding: 2%;
+    border: 4px outset;
+    border-radius: 50px;
+}
+header:hover{
+    box-shadow: 4px 4px 4px black;
+}
+
+.task{
+    margin-left: 22px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+.task > b:hover{
+    text-decoration: underline;
+}
+
+.task1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+    margin: 0% 10%;
+    align-content: flex-start;
+    padding: 0% 0.8%;
+    padding-bottom: 4%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+nav{
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    padding: 2% 1%;
+}
+
+nav > div > a {
+    text-decoration: none;
+    color: black;
+    font-size: 130%;
+
+}
+
+.lists > ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+}
+
+.lists > ul > li > a{
+    text-decoration: none;
+    color: rgb(87, 85, 85);
+    font-size: 80%;
+    font-weight: 400;
+}
+
+#hv1 > a{
+    display: inline-flex;
+    align-content: flex-start;
+    
+}
+#hv1 > a > i{
+    margin-top: 5%;
+    margin-left: 8%;
+    font-size: 70%;
+}
+
+#hv2{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#hv2 > i{
+    font-size: 70%;
+}
+
+.logos > a{
+    text-decoration: none;
+    color: black;
+}
+.logos > a > i{
+    font-size: 70%;
+}
+
+.lists > ul > li:hover > a {
+    color: #46C797;
+   
+}
+#default > a {
+    color: #46C797;
+}
+
+#hv1:hover > a > ul{
+    color: gray;
+}
+
+#hv1:hover > a > .dropdown1{
+    display: inline-flex;
+}
+
+.dropdown1 {
+    display: none;
+    flex-direction: column;
+    border: 1px solid;
+    border-top: 2px solid #46C797;
+    list-style: none;
+    background-color: #ffffff;
+    position: absolute;
+    top: 36.7%;
+    left: 38%;
+    width: 10%;
+    z-index: 5;
+    
+}
+
+.dropdown1 > li{
+    padding: 3% 7%;
+    font-size: 120%;
+}
+.dropdown1 > li:hover{
+    background-color: aliceblue;
+}
+
+.dropdown2{
+    display: none;
+    flex-direction: column;
+    border: 1px solid;
+    border-top: 2px solid #46C797;
+    list-style: none;
+    background-color: #ffffff;
+    position: absolute;
+    left: 100%;
+    top: 87%;
+    width: 100%;
+    
+}
+
+.dropdown2 > li{
+    padding: 3% 7%;
+    font-size: 110%;
+}
+.dropdown2 > li:hover{
+    background-color: aliceblue;
+}
+
+#hv2:hover > .dropdown2{
+    display: inline-flex;
+}
+
+
+.logos{
+    display: inline-flex;
+    gap: 20px;
+}
+
+.logos > a:hover > i{
+    color: #46C797;
+}
+
+
+.second{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    height: 60dvh;
+}
+
+.image1 , .image2 , .image3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 94, 94);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.image1{
+    background-image: url(images/img_1.jpg); 
+    background-image:image();
+}
+.image1:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/img_1.jpg');
+}
+
+.image2{
+    background-image: url(images/img_2.jpg);
+}
+.image2:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/img_2.jpg);
+}
+
+.image3{
+    background-image: url(images/img_3.jpg);
+}
+.image3:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/img_3.jpg);
+}
+
+.line1 , .line2 , .line3{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+.line1 > h2 , .line2 > h2 , .line3 > h2{
+    color: #ffffff;
+}  
+
+.line1 > a , .line2 > a , .line3 > a{
+    text-decoration: none;
+    font-size: 70%;
+    color: #ffffff;
+    border: 1px solid white;
+    padding: 5% 12%;
+    margin: 5%;
+    
+} 
+
+.line1 > a:hover , .line2 > a:hover , .line3 > a:hover{
+    color: black;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
