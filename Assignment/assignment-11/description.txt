@@ -1,0 +1,51 @@
+
+
+Hello All Students,
+
+Here is your next assignment , you all have to make exact ui components
+
+Header
+Sidebar
+Body content
+
+Image/video is optional 
+If a person use video tag and thumbnail 
+It will be plus point
+
+Best of luck
+Also complete your all previous assignment
+
+
+
+Jo assignment dia he 
+Usme 
+
+Aapne 
+Header
+Sidebar
+Body content jisme 12 videos hogi
+Taake scroll hoske
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
