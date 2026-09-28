@@ -30,6 +30,7 @@ Every assignment built inside this repository runs on its own isolated live page
 | **📝 Assignment 08** | Navbar Tasks | [View Assignment 08](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-08/index.html) |
 | **📝 Assignment 09** | Login Pages | [View Assignment 09](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-09/index.html) |
 | **📝 Assignment 10** | Photon Website Page | [View Assignment 10](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-10/index.html) |
+| **📝 Assignment 11** | Youtube Landing Page | [View Assignment 11](https://asad694.github.io/Saylani-Modern_Web_App/Assignment/assignment-11/index.html) |
 
 ---
 
