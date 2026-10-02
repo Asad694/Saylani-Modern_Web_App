@@ -220,7 +220,6 @@ nav > div > a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 30%;
 
 }
 
@@ -235,6 +234,7 @@ nav > div > a {
     border: 1px solid white;
     padding: 5% 12%;
     margin: 5%;
+    width: 130%;
     
 } 
 
