@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | BUILDREAM Clone</title>
+    <link rel="shortcut icon" href="images/icons/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box;}
+
+        body{
+            background-color: burlywood;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        button{
+            cursor:pointer;
+        }
+
+        .top-mark{
+            display: inline-flex;
+            gap: 0px;
+            width: 100%;
+            background-color: #373B42;
+        }
+        
+
+        .mark-left{
+            display:inline-flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 600;
+            width: 50%;
+        }
+        .mark-left > p{
+            color: #FFF6E1;
+            font-size: 90%;
+            font-weight: 600;
+        }
+        .mark-left > p > span{
+            color: #F7A939;
+            font-weight: 700;
+        }
+
+        .mark-right{
+            display: inline-flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 70%;
+
+        }
+        .mark-right > p{
+            display: flex;
+            flex-wrap: wrap;
+            font-weight: 600;
+            font-size: 90%;
+            color: #FFF6E1;
+        }
+        .mark-right > p > span{
+            color: #F7A939;
+            font-weight: 700;
+        }
+        .mark-right > div{
+            display: inline-flex;
+            gap: 2px;
+            align-items: center;
+            padding: 0.2%;
+            margin-left: 2%;
+        }
+        .mark-right > div > a{
+            display: flex;
+            text-decoration: none;
+            background-color: #41454C;
+            padding: 10%;
+        }
+        .mark-right > div > a > i{
+            color: #F7A939;
+            font-size: 110%;
+        }
+
+
+
+        nav{
+            display: inline-flex;
+            justify-content: space-between;
+            width: 100%;
+            background-color: #3D424A;
+        }
+
+        .web-name{
+            display: inline-flex;
+            justify-content: right;
+            padding-right: 2%;
+            align-items: center;
+            width: 30%;
+            transform: skew(20deg);
+            margin-left: -4.4%;
+            background-color: #FFA62B;
+        }
+
+        .web-name > a{
+            transform: skew(-20deg);
+            text-decoration: none;
+            color: #3D424A;
+            font-weight: 800;
+            padding: 2% 0%;
+            font-size: 110%;
+        }
+
+        .navbar-list{
+            display: inline-flex;
+            width: 55%;
+        }
+
+        .navbar-list > ul{
+            display: inline-flex;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: 20px;
+            list-style: none;
+        }
+        .navbar-list > ul > li > a{
+            text-decoration: none;
+            color: #B4B0B5;
+            font-weight: 560;
+            font-size: 90%;
+        }
+
+        #home-nav{
+            background-color: #FFA62B;
+            padding: 3% 2.2% ;
+            transform: skew(20deg);
+        }
+        #home-nav > a{
+            display: flex;
+            transform: skew(-20deg);
+            color: #3D424A;
+        }
+
+        .hero-section{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+            width: 100%;
+            height: 88dvh;
+
+            background-image: linear-gradient(rgba(0,0,0,0.48), rgba(0,0,0,0.48)), url('images/bg_1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+            background-attachment: fixed;
+    
+        }
+        .wel-1{
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            color: #FFFFFF;
+            font-size: 13px;
+            background: linear-gradient(rgba(0,0,0,0.2));
+        }
+
+        .wel-1 > div{
+            border: 1px solid #FFFFFF;
+            width: 40px;
+        }
+
+        .wel-2{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(rgba(0,0,0,0.12));
+            
+            box-shadow: 0px 0px 30px rgba(0,0,0,0.3) ;
+        }
+        .wel-2 > h2{
+            font-size: 40px;
+            font-weight: 800;
+            color: #FFFFFF;
+        }
+        .wel-2 > h2 > span{
+            color: #FFA62B;
+        }
+
+        .wel-3{
+            margin-top: 10px;
+        }
+        .wel-3 > button{
+            padding: 10px;
+            font-weight: 800;
+            font-size: 12px;
+            box-shadow: 2px 14px 8px rgba(0,0,0,0.2) ;
+        }
+        .wel-3 > button > i{
+            font-weight: 900;
+            font-size: 14px;
+        }
+
+        #btn1{
+            background-color: #F7A939;
+            color: #41454C;
+            border-style: none;
+        }
+
+        #btn2{
+            background-color: #3D424A;
+            color: #FFFFFF;
+            border-style: none;
+        }
+
+        .intro{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            height: 1000px;
+            background-color: #F8F8F8;
+        }
+
+        .intro > div{
+            display: flex;
+            flex-wrap: wrap;
+            width: 40%;
+        }
+
+        .left{
+            background-image: url(images/bg_2.jpg);
+            height: 60dvh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .right{
+            flex-direction: column;
+        }
+        .right > div{
+            display: inline-flex;
+            flex-wrap: wrap;
+            padding: 2%;
+
+        }
+
+        .line1{
+            font-weight: 600;
+            font-size: 0.9em;
+            color: #A66000;
+        }
+
+        .line2 > h3{
+            width: 100%;
+            font-size: 3em;
+            font-weight: 400;
+        }
+
+        .line3{
+            width: 80%;
+        }
+        .line4 >h4{
+            font-weight: 500;
+            font-size: 1.3em;
+        }
+
+        .cards > div:hover{
+            cursor: pointer;
+        }
+
+        .cards > div{
+            display: flex;
+            flex-wrap: wrap;
+            width: 49%;
+            padding: 2%;
+            margin: 0.3%;
+            gap: 10px;
+            background-color: #FFFFFF;
+        }
+
+        .icon{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 20%;
+            align-content: center;
+            font-size: 270%;
+            color: #FFA62B;
+            padding: 2%;
+        }
+
+        .content{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 60%;
+        }
+
+        .content:hover{
+            cursor:auto;
+        }
+
+        footer{
+             display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            gap: 10px;
+            width: 100%;
+            height: 71rem;
+            background-color: #373B42;
+        }
+        .sect1{
+            background-image: url(images/f1.png);
+            width: 330px;
+            height: 220px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .sect2{
+            background-image: url(images/f2.png);
+            width: 320px;
+            height: 330px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .sect3{
+            background-image: url(images/f3.png);
+            width: 190px;
+            height: 300px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            background-position-y: -2px;
+        }
+        
+        .sect4{
+            background-image: url(images/f4.png);
+            width: 400px;
+            height: 260px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            background-position-y: -10px;
+        }
+
+        footer> section:hover{
+            cursor: pointer;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <section class="top-mark">
+
+            <div class="mark-left">
+                <p><span>Free Call:</span> +92 090 0786011</p>
+            </div>
+
+            <div class="mark-right">
+                <p><span>Email Address:</span>&nbsp;info@example.com</p>
+                <div class="mark-icons">
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <nav>
+            <div class="web-name">
+                <a href="">BUILDREAM</a>
+            </div>
+            
+            <div class="navbar-list">
+                <ul>
+                    <li id="home-nav"><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">PROJECTS</a></li>
+                    <li><a href="">PRICING</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="hero-section">
+
+
+            <div class="wel-1">
+                 <div></div>&nbsp; SINCE 1982 &nbsp;<div></div>
+            </div>
+
+            <div class="wel-2">
+                <h2>WE WILL BE <span>HAPPY</span> TO TAKE</h2>
+                <h2>CARE OF YOUR WORK</h2>
+            </div>
+
+            <div class="wel-3">
+                <button type="button" id="btn1">CONTACT US <i class="fa-solid fa-arrow-right"></i></button>
+                &nbsp;
+                <button type="button" id="btn2">REQUEST A QUOTE <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+    </section>
+
+    <section class="intro">
+
+        <div class="left">
+        </div>
+
+        <div class="right">
+            
+            <div class="line1">
+                <p>Welcome to Buldream</p>
+            </div>
+
+            <div class="line2">
+                <h3>Quality and Affordable</h3>
+                <h3>Constructor</h3>
+            </div>
+
+            <div class="line3">
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and 
+                    Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                    right at the coast of the Semantics, a large lanuguage ocean.
+                </p>
+            </div>
+
+            <div class="line4">
+                <h4>We Can Help You</h4>
+            </div>
+            
+            <div class="cards">
+                
+                <div class="card1">
+                    <div class="icon">
+                        <i class="fa-regular fa-building"></i>
+                    </div>
+
+                    <div class="content">
+                        <h4>Construction</h4>
+                        <p>Far far away,behind
+                            the word mountains.</p>
+                    </div>
+
+                </div>
+
+                <div class="card2">
+                    <div class="icon">
+                        <i class="fa-solid fa-table-columns"></i>
+                    </div>
+
+                    <div class="content">
+                        <h4>Architecture</h4>
+                        <p>Far far away, behind
+                            the word mountains.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="card3">
+                    <div class="icon">
+                        <i class="fa-regular fa-headphones"></i>
+                    </div>
+
+                    <div class="content">
+                        <h4>Consulting</h4>
+                        <p>Far far away, behind
+                            the word mountains.</p>
+                    </div>
+
+                </div>
+
+                <div class="card4">
+                    <div class="icon">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+
+                    <div class="content">
+                        <h4>Mechanical</h4>
+                        <p>Far far away, behind
+                            the word mountains.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <section class="sect1"></section>
+        <section class="sect2"></section>
+        <section class="sect3"></section>
+        <section class="sect4"></section>
+    </footer>
+
+
+ 
+</body>
+</html>
